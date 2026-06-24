@@ -74,7 +74,7 @@ jobs:
         shell: powershell
         run: |
           $bytes = [System.Convert]::FromBase64String("${{ secrets.ANDROID_KEYSTORE_BASE64 }}")
-          [System.IO.File]::WriteAllBytes("$env:GITHUB_WORKSPACE\app\keystore", $bytes)
+          [System.IO.File]::WriteAllBytes("$env:GITHUB_WORKSPACE\release.keystore", $bytes)
 
       - name: Build Android app
         id: build_app
