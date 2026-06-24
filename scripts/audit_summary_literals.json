@@ -1,0 +1,25 @@
+{
+  "app_metadata": {
+    "Name": "k9 mail",
+    "Developer": "k9mail.org",
+    "Category": "k9 mail",
+    "Supported platforms": "Android (SDK 19-33+)",
+    "Version": "19.2",
+    "Last update": "24/06/2026",
+    "Compatible idioms": "English",
+    "Source": "Open source",
+    "License": "MPL-2.0",
+    "Main language": "Java + Kotlin + XML"
+  },
+  "actors": {
+    "Auditor": "Juan José López Jiménez",
+    "Requirement Engineering team": [
+      "Juan José López Jiménez"
+    ],
+    "Engineering Group (EN)": [
+      "Juan José López Jiménez"
+    ]
+  },
+  "header_text": "mSEC Audit Summary — k9 mail",
+  "cover_page_text": "k9 mail — v19.2"
+}
